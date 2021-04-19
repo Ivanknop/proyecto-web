@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #3C3C3C;
+    color:#98DFAF;
+    margin: 0,auto;
+    min-width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+p, b{
+    padding: 10px 10%;
+    text-align: justify;
+    color: #FFFFB7;
+}
+hr{
+    border: 0;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid ;
+    height: 0;
+    background-color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+.foto1{
+    background-color: black;
+}
+#titulo{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+#link{
+    margin-left: 10%;
+    color: black;
+}
+#icon{
+    color: #98DFAF;
+}
+body {
+    background-color: #087E8B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+img>.foto1{
+    display: inline-block;
+    border: 10px solid black;
+
+}
+nav {
+    height: 50%;    
+    background-color: #3C3C3C   ;
+    text-align: center;    
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    float: left;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    background-color: #3C3C3C;
+}
+nav ul li a:hover{
+    color: rgb(185, 183, 183);
+    background-color: #853939;
+}
+#formularioContacto{
+    padding-left: 25%;
+    object-position: center;
+
+}
